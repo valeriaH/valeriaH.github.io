@@ -1,0 +1,212 @@
+/* Reset */
+html, body { height: 100%; margin: 0; padding: 0; }
+
+
+/*FOR PHONES*/
+@media only screen and (orientation: portrait) {
+  .header {
+    vertical-align: top;
+    background:white;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 650;
+    font-family:system-ui;
+    color: #333;
+  
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    padding-left: 20px;
+  }
+  .essay {
+    width: 75%;
+    margin-left: 10%;
+  }
+  
+  .portrait {
+    position: static;
+    margin-left: 40%;
+  }
+  
+  .container {
+    display: table;
+  }
+  
+  .content {
+    padding-top: 10px;
+    display: block;
+    margin-top: 7%;
+    height: 2000px;
+  }
+  
+  body {
+    vertical-align: top;
+    padding: 0;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    font-family:system-ui;
+    height: 2000px;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  .footer {
+    background: white;
+  }
+  
+  .navbar {
+    margin-top: 15%;
+    z-index: 10;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    font-size: 14px;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  body {
+    background: white;
+  }
+  
+}
+
+/***
+///////////////////////
+//////////////////////
+//////////////////////
+***/
+
+/* FOR DESKTOP AND TABLETS */
+@media only screen and (orientation: landscape) {
+.header {
+  vertical-align: top;
+  background:white;
+  text-align: left;
+  font-size: 38px;
+  font-weight: 650;
+  font-family:system-ui;
+  color: #333;
+
+  margin-top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  padding-left: 20px;
+}
+
+.resume {
+  margin-left: 35%;
+}
+
+.essay {
+  width: 30%;
+  margin-left: 37%;
+}
+
+.portrait {
+  display: block;
+  float: left;
+  margin-left: 25%;
+}
+
+.container {
+  display: table;
+}
+
+.content {
+  padding-top: 10px;
+  display: block;
+  margin-top: 7%;
+  height: 2000px;
+}
+
+body {
+  vertical-align: top;
+  padding: 0;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 400;
+  font-family:system-ui;
+  height: 2000px;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  background: white;
+
+}
+
+.navbar {
+  position: fixed;
+  float: left;
+  z-index: 10;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  float: left;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  font-size: 14px;
+  display: block;
+  color: #333;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+  color: white;
+}
+
+body {
+  background: white;
+}
+}
